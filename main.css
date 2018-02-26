@@ -1,0 +1,72 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+.randomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  margin-top: .2em;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  padding: .3em;
+  letter-spacing: .07em;
+}
+
+.test {
+  height: 1000px;
+}
+
+button {
+  border-radius: 2em;
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(150deg, #25C6AC, #228C80);
+  color: #fff;
+  letter-spacing: .07em;
+  border: 0;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover, button:focus {
+  -webkit-filter: drop-shadow( 1px 1.5px .5px #178478 );
+  filter: drop-shadow( 1px 1.5px .5px #178478 );
+  outline: none;
+}
+
+button:active {
+  outline: none;
+  background: linear-gradient(150deg, #2ad4b8, #259f91);
+}
+
+select {
+  font-family: 'Roboto', sans-serif;
+  -webkit-border-radius: .2em;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 60px;
+  border: 0;
+  outline: none;
+  color: #ad551a;
+  background-color: #fffcf9;
+  -webkit-filter: drop-shadow( .5px 1.5px .5px #da864e );
+  filter: drop-shadow( 1px 1.5px 1px #da864e );
+}
+
+select:active, select:focus {
+  background-color: #fff;
+}

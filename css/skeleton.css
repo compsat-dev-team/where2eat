@@ -52,6 +52,15 @@
   transform: translateY(-50%);
 }
 
+footer {
+  background-color: #228C80;
+  font-size: 15px;
+  color: #FFBE57;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
